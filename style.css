@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: 'LED Calculator';
+    src: url(font/LEDCalculator.ttf) format(truetype);
+}
+
+#fundo {
+    background-color: #eee;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 400;
+    font-style: normal;
+}
+
+#calculadora {
+    background-color: #000;
+    border: 3px solid #555;
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+}
+
+#resultado {
+    background-color: #3d6340;
+    border-radius: 10px;
+    box-shadow: inset -3px 3px 0px #27412a;
+    color: #000;
+    font-family: 'LED Calculator';
+    font-size: 30px;
+    width: 200px;
+    height: 35px;
+    margin: 5px;
+    padding: 5px;
+    text-align: right;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+table {
+    padding: 10px 0px;
+}
+
+button {
+    background-color: #111;
+    border: none;
+    color: #eee;
+    cursor: pointer;
+    font-size: 25px;
+    margin: 2px;
+    width: 50px;
+    height: 50px;
+} button:hover {
+    background-color: #000;
+}
+
+#botao-limpar {
+    background-color: #900000;
+} #botao-limpar:hover {
+    background-color: #500000;
+}
+
+#botao-apagar {
+    color: #bb4545;
+}
+
+.botao-operadores {
+    color: #008b8b;
+    font-weight: 600;
+}
+
+#botao-igual {
+    background-color: #004444;
+    height: 100px;
+} #botao-igual:hover {
+    background-color: #002222;
+}
+
+#szt {
+    font-weight: bold;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    height: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: gray;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #900000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #500000;
+}
+
